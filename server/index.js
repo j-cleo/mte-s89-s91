@@ -19,7 +19,7 @@ db.on("error", console.error.bind(console, "Connection Error!"));
 db.once("open", () => console.log("Successfully connected to Mongo Database!"));
 
 const corsOptions = {
-	origin: ['http://localhost:5173'],
+	origin: ['https://mte-s89-s91-six.vercel.app'],
 	methods: ['GET', 'POST'],
 	allowHeaders : ['Content-Type', 'Authorization'],
 	credentials: true,
